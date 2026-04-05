@@ -26,7 +26,8 @@ Built using **YOLOv8 (Ultralytics)**, this project enhances security in face rec
 ---
 
 ## 📂 Project Structure
-'''
+```
+
 face-liveness-detection/
 │
 ├── main.py
@@ -50,18 +51,23 @@ face-liveness-detection/
 │
 ├── requirements.txt
 └── README.md
-'''
+```
+
 ---
 
 ## ⚙️ Installation
+```
 
 git clone https://github.com/your-username/face-liveness-detection.git  
 cd face-liveness-detection  
 pip install -r requirements.txt  
+```
 
 If requirements.txt is not available:
+```
 
 pip install opencv-python cvzone ultralytics  
+```
 
 ---
 
@@ -74,26 +80,34 @@ Edit class ID in dataCollection.py:
 classID = 0  # 0 = Fake, 1 = Real  
 
 Run:
+```
 
 python dataCollection.py  
+```
 
 ---
 
 ### 2. Split Dataset
+```
 
 python splitData.py  
+```
 
 ---
 
 ### 3. Train Model
+```
 
 python train.py  
+```
 
 ---
 
 ### 4. Run Real-Time Detection
+```
 
 python main.py  
+```
 
 ---
 
@@ -122,7 +136,3 @@ python main.py
 - Limited against advanced spoofing (e.g., deepfakes, 3D masks)  
 
 ---
-
-## 📜 License
-
-MIT License
