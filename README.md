@@ -39,12 +39,6 @@ face-liveness-detection/
 │   └── SplitData/
 │       └── dataOffline.yaml
 │
-├── runs/
-│   └── detect/
-│       └── train/
-│           ├── results.csv
-│           └── args.yaml
-│
 ├── Testing Scripts/
 │   ├── yoloTest.py
 │   └── faceDetectorTest.py
