@@ -28,7 +28,7 @@ Built using **YOLOv8 (Ultralytics)**, this project enhances security in face rec
 ## 📂 Project Structure
 ```
 
-face-liveness-detection/
+Face-Liveness-Detection/
 │
 ├── main.py
 ├── train.py
@@ -52,8 +52,8 @@ face-liveness-detection/
 ## ⚙️ Installation
 ```
 
-git clone https://github.com/your-username/face-liveness-detection.git  
-cd face-liveness-detection  
+git clone https://github.com/aadeshyogi12/Face-Liveness-Detection.git  
+cd Face-Liveness-Detection  
 pip install -r requirements.txt  
 ```
 
